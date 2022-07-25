@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  postgres:
+    image: postgres:13.2-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: countries
+      POSTGRES_USER: countries
+      POSTGRES_DB: countries
+    ports:
+      - 5432:5432
