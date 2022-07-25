@@ -7,7 +7,7 @@ O projeto foi feito com backend em Laravel como framework, consequentemente, ser
 
 <h2> Como Instalar </h2>
 
-Para que as rotinas funcionem, será necessário que use o Cron, no caso do Linux, no terminal dentro da página do projeto, executar o seguinte o comando `crontab -e` (o editor utilizado foi o vim, caso não possua e não consigar acessar, use o comando `sudo apt install vim`) após entrar no editor, em seguida, na ultima linha coloque o seguinte : `* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1` (o `path-to-your-project` seria o endereço que o seu projeto está, ex: `/home/joao/final/`. os asteristicos `* * * * *`, são a configuração de quanto em quanto tempo deve rodar o Cron, no caso, está de minuto em minuto, você pode configurar pelo site https://crontab.guru). Após adicionar, salve as alterações.
+Para que as rotinas funcionem, será necessário que use o Cron, no caso do Linux, no terminal dentro da página do projeto, executar o seguinte o comando `crontab -e` (o editor utilizado foi o vim, caso não possua e não consigar acessar, use o comando `sudo apt install vim`) após entrar no editor, em seguida, na ultima linha coloque o seguinte : `* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1` (o `path-to-your-project` seria o endereço que o seu projeto está, ex: `/home/joao/final/`. os asteristicos `* * * * *`, são a configuração de quanto em quanto tempo deve rodar o Cron, no caso, está de minuto em minuto, você pode configurar usando o site https://crontab.guru para decidir o periodo). Após adicionar, salve as alterações.
 
 Agora será necessario executar os seguintes comandos: 
 
