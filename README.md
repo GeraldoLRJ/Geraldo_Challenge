@@ -45,6 +45,8 @@ E pelo `POST` /api/countries/add (Neste caso essa rota realiza a transmissão da
     
 }
 
+Para verificar o Banco de Dados foi utilizado o DBeaver e para os testes de rotas da API, foi utilizado o Insomnia.
+
 Onde podem ser passadas strings de até 256 caracteres, essas Strings são requisitadas para serem encaminhadas a um novo objeto no Banco de Dados).
 
 Qualquer dica de melhoria ou ideias são muito bem vindas ao projeto :3.
