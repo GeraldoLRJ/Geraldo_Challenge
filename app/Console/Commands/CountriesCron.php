@@ -43,8 +43,6 @@ class CountriesCron extends Command
         $response = Http::get('https://restcountries.com/v3.1/all');
 
         $res = json_decode($response, true);
-        $getCountries=[];
-        print_r('Iniciando fireach');
 
         for ($i=0; $i < 10; $i++) { 
 
