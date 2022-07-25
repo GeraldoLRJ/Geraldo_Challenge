@@ -22,7 +22,7 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')->hourly();
 
-        $schedule->command('countries:cron')->everyTenMinutes();
+        $schedule->command('countries:cron')->everyMinute();
     }
 
     /**
