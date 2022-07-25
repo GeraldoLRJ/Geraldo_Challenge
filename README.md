@@ -15,6 +15,8 @@ Agora será necessario baixar e instalar:
 
 * composer update
 
+* sudo apt install vim 
+
 * docker-composer up -d
 
 * php artisan migrate
